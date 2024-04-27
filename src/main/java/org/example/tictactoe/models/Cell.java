@@ -10,4 +10,9 @@ public class Cell {
     private int col;
     private Player player;
     private ECellState cellState;
+    public Cell(int row, int col) {
+        this.row = row;
+        this.col = col;
+        this.cellState = ECellState.EMPTY;
+    }
 }

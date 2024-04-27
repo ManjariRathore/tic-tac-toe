@@ -6,6 +6,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public class  Symbol {
-    private char symbol;
+    private char aChar;
 
+    public Symbol(char aChar) {
+        this.aChar = aChar;
+    }
 }
